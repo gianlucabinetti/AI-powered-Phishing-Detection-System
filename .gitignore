@@ -1,0 +1,274 @@
+# ==============================================
+# AI PHISHING SHIELD - INTELLECTUAL PROPERTY PROTECTION
+# ==============================================
+# This .gitignore protects core proprietary algorithms and sensitive files
+# while allowing potential buyers to see the extension structure and features
+
+# ==============================================
+# CORE ML ALGORITHMS & MODELS (PROTECTED)
+# ==============================================
+# Trained models and weights
+models/
+*.pkl
+*.joblib
+*.h5
+*.pb
+*.pth
+*.onnx
+*.tflite
+
+# ML training data and datasets
+data/
+datasets/
+training_data/
+*.csv
+*.json
+*.txt
+
+# Feature extraction algorithms
+ml/features/
+ml/models/
+ml/training/
+scripts/train_model.py
+scripts/feature_extraction.py
+scripts/data_preprocessing.py
+
+# ==============================================
+# API BACKEND & ALGORITHMS (PROTECTED)
+# ==============================================
+# Core API implementation
+api/
+fastapi_app.py
+main.py
+
+# Authentication and security
+auth/
+middleware/
+security/
+*.key
+*.pem
+*.crt
+
+# Database and storage
+database/
+*.db
+*.sqlite
+*.sql
+
+# ==============================================
+# DOCKER & DEPLOYMENT (PROTECTED)
+# ==============================================
+docker/
+Dockerfile*
+docker-compose*.yml
+kubernetes/
+*.yaml
+*.yml
+
+# Environment and configuration
+.env*
+config/
+settings/
+*.ini
+*.conf
+
+# ==============================================
+# PROPRIETARY ALGORITHMS (PROTECTED)
+# ==============================================
+# Core extension algorithms (keep structure visible but protect implementation)
+chrome_extension/utils/api.js
+chrome_extension/utils/storage.js
+chrome_extension/utils/constants.js
+chrome_extension/background.js
+chrome_extension/content.js
+
+# Advanced features
+chrome_extension/advanced/
+chrome_extension/algorithms/
+chrome_extension/ml/
+
+# ==============================================
+# BUSINESS & LICENSING (PROTECTED)
+# ==============================================
+# Business documents
+business/
+licensing/
+contracts/
+legal/
+*.pdf
+*.doc
+*.docx
+
+# Financial and pricing
+pricing/
+revenue/
+analytics/
+
+# ==============================================
+# DEVELOPMENT & TESTING (PROTECTED)
+# ==============================================
+# Test files and test data
+tests/
+test_data/
+benchmarks/
+performance/
+
+# Development tools and scripts
+tools/
+scripts/
+automation/
+build/
+dist/
+
+# IDE and development
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================================
+# LOGS & TEMPORARY FILES
+# ==============================================
+# Log files
+logs/
+*.log
+*.out
+*.err
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+*.tmp
+*.temp
+
+# Cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.cache/
+.pytest_cache/
+*.cover
+.coverage
+htmlcov/
+
+# ==============================================
+# SYSTEM & OS FILES
+# ==============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.trash-*
+
+# ==============================================
+# NODE & WEB DEPENDENCIES
+# ==============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ==============================================
+# PYTHON DEPENDENCIES
+# ==============================================
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Python packages
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter notebooks (may contain sensitive data)
+*.ipynb
+.ipynb_checkpoints/
+
+# ==============================================
+# BACKUP & ARCHIVE FILES
+# ==============================================
+*.backup
+*.bak
+*.old
+*.orig
+*.save
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ==============================================
+# WHAT REMAINS VISIBLE TO POTENTIAL BUYERS
+# ==============================================
+# These files will remain visible to show the extension's capabilities:
+# 
+# ✅ chrome_extension/manifest.json - Shows permissions and structure
+# ✅ chrome_extension/popup.html - Demonstrates UI design
+# ✅ chrome_extension/popup.js - Shows frontend functionality
+# ✅ chrome_extension/options.html - Shows settings interface
+# ✅ chrome_extension/options.js - Shows configuration capabilities
+# ✅ chrome_extension/styles.css - Shows design quality
+# ✅ chrome_extension/icons/ - Shows professional branding
+# ✅ README.md - Marketing and feature documentation
+# ✅ requirements.txt - Shows technology stack
+# ✅ LICENSE - Legal framework
+# 
+# This approach allows potential buyers to:
+# - See the professional UI/UX design
+# - Understand the feature set
+# - Verify Chrome extension structure
+# - Review code quality and architecture
+# - Test basic functionality
+# 
+# While protecting:
+# - Core ML algorithms and trained models
+# - Proprietary detection techniques
+# - API implementation and security
+# - Training data and datasets
+# - Deployment and scaling infrastructure
+
+# ==============================================
+# ADDITIONAL SECURITY
+# ==============================================
+# Sensitive configuration
+secrets/
+credentials/
+keys/
+tokens/
+*.secret
+
+# API keys and tokens
+.env.local
+.env.production
+.env.staging
+
+# Database credentials
+*.credentials
+*.password
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.ca-bundle

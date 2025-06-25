@@ -1,0 +1,71 @@
+# Core ML and Data Science
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# Machine Learning Libraries
+xgboost>=1.5.0
+lightgbm>=3.3.0
+imbalanced-learn>=0.8.0
+
+# Deep Learning (Optional)
+torch>=1.10.0
+torchvision>=0.11.0
+
+# Web and Network Analysis
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+urllib3>=1.26.0
+dnspython>=2.2.0
+python-whois>=0.7.0
+
+# Computer Vision
+opencv-python>=4.6.0
+Pillow>=9.0.0
+
+# Cryptography and Security
+cryptography>=3.4.0
+pyOpenSSL>=22.0.0
+
+# Optimization and Hyperparameter Tuning
+optuna>=3.0.0
+joblib>=1.1.0
+
+# Data Visualization and Reporting
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Web Framework (for API)
+fastapi>=0.85.0
+uvicorn>=0.18.0
+pydantic>=1.10.0
+python-jose[cryptography]>=3.3.0
+python-multipart>=0.0.5
+passlib[bcrypt]>=1.7.4
+
+# Database
+sqlalchemy>=1.4.0
+
+# Utilities
+python-dateutil>=2.8.0
+pytz>=2022.1
+tqdm>=4.64.0
+
+# Development and Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
+mypy>=0.971
+
+# Jupyter (for development)
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# Additional Utilities
+click>=8.0.0
+colorama>=0.4.0
+python-dotenv>=0.19.0
