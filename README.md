@@ -150,13 +150,6 @@ AI Phishing Shield is a sophisticated Chrome extension that provides real-time p
 - API authentication systems
 - Advanced feature implementations
 
-## 📞 **Contact Information**
-
-For licensing inquiries, technical questions, or purchase discussions:
-
-- **Business Inquiries**: [Your Business Email]
-- **Technical Support**: [Your Technical Email]
-- **Demo Requests**: [Your Demo Email]
 
 ---
 
